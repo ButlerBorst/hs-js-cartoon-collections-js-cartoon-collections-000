@@ -13,7 +13,8 @@ function dwarfRollCall(dwarves) {
 }
 
 function summonCaptainPlanet(planeteerCalls){
-  return planeteerCalls.map(x => x.toUpperCase() + "!")
+  var loud = planeteerCalls.map(loudCalls => loudCalls.toUpperCase() + "!")
+  return loud
 }
 
 function longPlaneteerCalls(words) {
